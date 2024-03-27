@@ -634,17 +634,22 @@ a {
 .caret-form{
     color: #2e2f42;
     width: 360px;
-    padding-left: 20px;
+    padding-left: 35px;
+    border-radius: 4px;
+    height: 25px;
+    border-style: double;
 }
 
 .caret-form1{
     width: 360px;
+    border-radius: 4px;
 }
 
 .icon-modal{
     width: 20px;
     height: 20px;
     position: absolute;
+    margin-left: 10px;
 }
 
 ?
@@ -698,12 +703,18 @@ a {
     width: 264px;
     height: 40px;
     padding: 0%;
+    color: white;
 }
 
 .label-input-subtag::placeholder{
     color: white;
     width: 36px;
     height: 24px;
+}
+
+.input-modal{
+    display: flex;
+    align-items: center;
 }
 
 .sub-btn{
@@ -738,4 +749,16 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and(min-width: 1158px) {
+    
+}
+
+@media screen and(min-width: 768px) {
+
+}
+
+@media screen and(min-width: 428px) {
+
 }
