@@ -312,6 +312,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 1440px;
+    margin: auto;
 }
 
 .WAWD-img{
@@ -763,13 +764,90 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+    .index-header{
+        padding: 0%;
+        height: 72px;
+    }
+    .container-index {
+        width: 1440px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .logo{
+        display: flex;
+        margin-left: 16px;
+        font-size: 200%;
+        align-items:center;
+    }
+    .contact-span{
+        align-content: center;
+        display: grid;
+    }
     .nav-bar{
-
+        display: inline-flex;
+        font-size: 150%;
+        gap: 40px;
+        margin: 0%;
+        justify-content: center;
+    }
+    .nav-bar2{
+        align-self: center;
+    }
+    .a-contact{
+        margin:6px 16px;
+    }
+    .h1-hero{
+        margin: 112px 134px 36px 134px;
+        font-size: 120px;
+        width: 1199px;
+    }
+    .button-1{
+        margin: 36px 300px 112px 600px;
+        width: 250px;
+        height: 75px;
+        font-size: x-large;
+    }
+    .modal{
+        width: -webkit-fill-available;
+    }
+    .svg-container{
+        display: none;
+    }
+    .describe{
+        display: flex;
+        flex-wrap:wrap;
+        padding: 0px 16px 0px 16px;
+    }
+    .sh-svg-list{
+        width: 50%;
+    }
+    .li-sub-hero{
+        width: 600px;
+        font-size:xx-large;
+    }
+    .p-description{
+        font-size: xx-large;
+    }
+    .section-describe{
+        display: flex;
+        margin: auto;
+        width: 1440px;
+        padding:120px 0px 120px 0px;
+    }
+    .font-team{
+        height: 1224px;
+        width: 768px;
+    }
+    .team-member{
+        box-sizing: border-box;
+        width: 264px;
+        height: 428px;
+        margin: auto;
     }
 
-    .a-contact{
-        display: flex;
-        flex-direction: column;
+
+    .section-WAWD{
+        display: none;
     }
 }
 
