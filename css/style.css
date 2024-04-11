@@ -51,10 +51,8 @@ a {
     margin: -0.25%;
 }
 
-.nav-bar,
-.nav-bar:visited{
-    --text-font-family:"Roboto"sans-serif;
-    font-weight: 500;
+.contact-span{
+    display: none;
 }
 
 .a-contact{
@@ -231,10 +229,8 @@ a {
     display: block;
     background-color: #F4F4FD;
     margin: auto;
-    height: 780px;
+    height: 2232px;
     width: 1440px;
-
-
 }
 
 .container-team{
@@ -260,11 +256,7 @@ a {
 }
 
 .nav-bar{
-    display: inline-flex;
-    justify-content: space-between;
-    width: 261px;
-    margin: 0px 332px 0px 76px;
-    padding: 0px;
+    display:none
 }
 
 .mail{
@@ -289,7 +281,7 @@ a {
 }
 
 .describe{
-    display: flex;
+    text-align: center;
     padding: 0px;
 }
 .li-sub-hero{
@@ -308,13 +300,8 @@ a {
 }
 
 .section-WAWD{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1440px;
-    margin: auto;
+    display: none
 }
-
 .WAWD-img{
     display: inline-flex;
     padding: 0px;
@@ -329,9 +316,8 @@ a {
 }
 
 .team-list{
-    display: flex;
+    display: grid;
     justify-content: center;
-    flex-wrap: wrap;
     align-content: center;
     gap: 24px;
     padding: 0%;
@@ -440,6 +426,8 @@ a {
 .logos-list{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 72px 0px 120px 0px;
     gap: 24px;
 
@@ -496,12 +484,7 @@ a {
 }
 
 .svg-container{
-    background-color: #F4F4FD;
-    width: 264px;
-    height: 112px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
 }
   
 .cards-li:hover{
@@ -762,95 +745,111 @@ a {
     width: 1440px;
     margin: auto;
 }
+/*stilizare tableta*/
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    .nav-bar,
+    .nav-bar:visited {
+            --text-font-family: "Roboto" sans-serif;
+            font-weight: 500;
+        }
 
-@media only screen and (max-width: 768px) {
-    .index-header{
-        padding: 0%;
-        height: 72px;
-    }
-    .container-index {
-        width: 1440px;
-        margin: auto;
-        justify-content: space-between;
-    }
-    .logo{
-        display: flex;
-        margin-left: 16px;
-        font-size: 200%;
-        align-items:center;
-    }
-    .contact-span{
-        align-content: center;
-        display: grid;
-    }
-    .nav-bar{
-        display: inline-flex;
-        font-size: 150%;
-        gap: 40px;
-        margin: 0%;
-        justify-content: center;
-    }
-    .nav-bar2{
-        align-self: center;
-    }
-    .a-contact{
-        margin:6px 16px;
-    }
-    .h1-hero{
-        margin: 112px 134px 36px 134px;
-        font-size: 120px;
-        width: 1199px;
-    }
-    .button-1{
-        margin: 36px 300px 112px 600px;
-        width: 250px;
-        height: 75px;
-        font-size: x-large;
-    }
-    .modal{
-        width: -webkit-fill-available;
-    }
-    .svg-container{
-        display: none;
-    }
+    .contact-span {
+            display: flex;
+            flex-direction: column;
+        }
     .describe{
-        display: flex;
-        flex-wrap:wrap;
-        padding: 0px 16px 0px 16px;
-    }
-    .sh-svg-list{
-        width: 50%;
-    }
-    .li-sub-hero{
-        width: 600px;
-        font-size:xx-large;
-    }
-    .p-description{
-        font-size: xx-large;
-    }
-    .section-describe{
-        display: flex;
-        margin: auto;
-        width: 1440px;
-        padding:120px 0px 120px 0px;
+            flex-wrap: wrap;
+            display: flex;
+            width: 52%;
+            font-size: x-large;
     }
     .font-team{
         height: 1224px;
-        width: 768px;
     }
-    .team-member{
-        box-sizing: border-box;
-        width: 264px;
-        height: 428px;
-        margin: auto;
+    .team-list{
+            flex-wrap: wrap;
+            display: flex;
+            width: 52%;
+            font-size: x-large;
+            margin: auto;
+            top: 15px;
+            position: relative;
+    }
+    .customers{
+        height: 500px;
+    }
+    .logos-list{
+            flex-wrap: wrap;
+            display: flex;
+            width: 30%;
+            margin: auto;
+            top: 15px;
+            position: relative;
+            flex-direction: row;
+    }
+    .font-footer{
+        height: 664px;
     }
 
-
-    .section-WAWD{
-        display: none;
-    }
 }
 
-@media only screen and (max-width: 428px) {
+/*stilizare desktop*/
+@media only screen and (min-width: 1200px) {
+    .nav-bar {
+                display: inline-flex;
+                justify-content: space-between;
+                width: 261px;
+                margin: 0px 332px 0px 76px;
+                padding: 0px;
+            }
+    .contact-span{
+        display: flex;
+    }
+    .svg-container {
+            background-color: #F4F4FD;
+            width: 264px;
+            height: 112px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    .section-WAWD {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 1440px;
+            margin: auto;
+        }
+    
+    .describe {
+            display: flex;
+            padding: 0px;
+        }
+                
+    .font-team {
+            display: block;
+            background-color: #F4F4FD;
+            margin: auto;
+            height: 780px;
+            width: 1440px;
+        }
 
+    .team-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-content: center;
+            gap: 24px;
+            padding: 0%;
+            margin: 72px 0px 120px 0px;
+        }
+    .logos-list {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 72px 0px 120px 0px;
+            gap: 24px;
+    
+        }
 }
