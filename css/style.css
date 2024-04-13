@@ -1,9 +1,9 @@
 :root {
     color: rgb(0, 0, 0);
-    --link-color-hover: black ;
-    --heading-font-family:"Raleway", sans-serif;
-    --text-font-family:"Roboto", sans-serif;
-    --transition: 250ms cubic-bezier(0.4, 0, 0.2,1)
+    --link-color-hover: black;
+    --heading-font-family: "Raleway", sans-serif;
+    --text-font-family: "Roboto", sans-serif;
+    --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 ul {
-    list-style-type:none;
+    list-style-type: none;
 }
 
 a {
@@ -20,12 +20,11 @@ a {
 }
 
 .global-header .main-nav a:hover {
-    color: var(--link-color_hover): #000000
-    cursor: pointer;
+    color: var(--link-color_hover): #000000 cursor: pointer;
 }
 
-.button{
-    background-color: #4D5AE5 ;
+.button {
+    background-color: #4D5AE5;
     /* Culoarea dorită când butonul este apăsat */
     color: white;
     /* Culoarea textului pentru contrast */
@@ -34,33 +33,33 @@ a {
 }
 
 .web,
-.studio{
+.studio {
     --heading-font-family: "Raleway", sans-serif;
     font-weight: 800;
     text-decoration: none;
     color: #000000;
-   
+
 }
 
-.web{
+.web {
     color: #4D5AE5;
 }
 
-.studio{
+.studio {
     color: #2E2F42;
     margin: -0.25%;
 }
 
-.contact-span{
+.contact-span {
     display: none;
 }
 
-.a-contact{
+.a-contact {
     --text-font-family: "Roboto" sans-serif;
     font-weight: 400;
 }
 
-.h1-hero{
+.h1-hero {
     --text-font-family: "Roboto" sans-serif;
     font-weight: 700;
     color: white;
@@ -75,7 +74,7 @@ a {
 }
 
 .button-1,
-.button-category:active{
+.button-category:active {
     --text-font-family: "Roboto" sans-serif;
     color: white;
     font-weight: 500;
@@ -84,18 +83,18 @@ a {
     padding: 10px;
 }
 
-.button-1{
-    margin: 0px 635px 188px 635px ;
+.button-1 {
+    margin: 0px 635px 188px 635px;
     width: 169px;
     height: 56px;
 }
 
 .button-1:hover,
-.button-category:hover{
+.button-category:hover {
     cursor: pointer;
 }
 
-.button-1:active{
+.button-1:active {
     background-color: #ffffff;
     color: #4D5AE5;
 }
@@ -103,10 +102,10 @@ a {
 .button-category:active {
     background-color: #4D5AE5;
     color: #ffffff;
-    
+
 }
 
-.button-category{
+.button-category {
     color: #4D5AE5;
     background-color: #E7E9FC;
     border-radius: 2px;
@@ -114,7 +113,7 @@ a {
     border: #9aa3ee;
 }
 
-.h3-names{
+.h3-names {
     --text-font-family: "Roboto" sans-serif;
     font-weight: 500;
     margin-top: 0%;
@@ -122,21 +121,22 @@ a {
 }
 
 .h3-sections,
-.h3-courses{
-    --text-font-family:"Roboto"sans-serif;
+.h3-courses {
+    --text-font-family: "Roboto" sans-serif;
     font-weight: 500;
 }
 
-.h3-sections{
+.h3-sections {
     margin-bottom: 8px;
     margin-top: 0px;
 }
 
-.p-description{
+.p-description {
     color: black;
     margin-top: 8px;
 }
-.p-desciption-footer{
+
+.p-desciption-footer {
     color: rgb(255, 255, 255);
     height: 72px;
     width: 264px;
@@ -144,12 +144,12 @@ a {
 }
 
 .h4-jobs,
-.h4-clas{
+.h4-clas {
     --text-font-family: "Roboto" sans-serif;
     font-weight: 400;
 }
 
-.h2-mission{
+.h2-mission {
     --text-font-family: "Roboto" sans-serif;
     font-weight: 700;
     display: flex;
@@ -172,14 +172,14 @@ a {
     list-style: none;
 }
 
-.container-index{
+.container-index {
     display: flex;
     justify-content: center;
     width: 1440px;
     margin: auto;
 }
 
-.font-hero{
+.font-hero {
     background-color: #2E2F42;
     width: 1440px;
     top: 72px;
@@ -187,14 +187,14 @@ a {
     padding: 100px 1020px 100px 156px;
 }
 
-.font-hero-up{
+.font-hero-up {
     background-color: #2E2F42;
     width: 1440px;
     height: 600px;
-    
+
 }
 
-.container-hero{
+.container-hero {
     justify-content: center;
     align-content: center;
     display: flex;
@@ -205,14 +205,14 @@ a {
 
 }
 
-.container-upperhero{
+.container-upperhero {
     display: flex;
     justify-content: center;
     width: 1440px;
     margin: auto;
 }
 
-.font-footer{
+.font-footer {
     background-color: #2E2F42;
     width: 1440px;
     height: 500px;
@@ -221,11 +221,11 @@ a {
     text-align: center;
 }
 
-.studio-footer{
+.studio-footer {
     color: white;
 }
 
-.font-team{
+.font-team {
     display: block;
     background-color: #F4F4FD;
     margin: auto;
@@ -233,13 +233,13 @@ a {
     width: 1440px;
 }
 
-.container-team{
+.container-team {
     display: flex;
     justify-content: center;
     width: 1440px;
 }
 
-.index-header{
+.index-header {
     display: inline-flex;
     justify-content: space-between;
     width: 1440px;
@@ -247,7 +247,7 @@ a {
     border-color: #E7E9FC;
 }
 
-.global-header{
+.global-header {
     border-bottom: 2px solid #E7E9FC;
     display: inline-flex;
     justify-content: space-between;
@@ -255,67 +255,71 @@ a {
     padding: 24px 156px;
 }
 
-.nav-bar{
-    display:none
+.nav-bar {
+    display: none
 }
 
-.mail{
-    margin-right:40px;
+.mail {
+    margin-right: 40px;
 }
 
 
-.section-describe{
+.section-describe {
     display: flex;
     justify-content: center;
     margin: auto;
     width: 1440px;
     padding-top: 120px;
 }
-.container{
+
+.container {
     width: 1128px;
 }
 
-.container-sh{
+.container-sh {
     display: flex;
     justify-content: center;
 }
 
-.describe{
+.describe {
     text-align: center;
     padding: 0px;
 }
-.li-sub-hero{
+
+.li-sub-hero {
     width: 264px;
 }
 
 .lsh1,
 .lsh2,
-.lsh3{
+.lsh3 {
     margin-right: 24px;
 }
 
-.cont-mis{
+.cont-mis {
     display: flex;
     justify-content: center;
 }
 
-.section-WAWD{
+.section-WAWD {
     display: none
 }
-.WAWD-img{
+
+.WAWD-img {
     display: inline-flex;
     padding: 0px;
 }
 
 .li-WAWD1,
-.li-WAWD3{
+.li-WAWD3 {
     margin: 72px 0px 120px 0px
 }
-.li-WAWD2{
+
+.li-WAWD2 {
     margin: 72px 24px 120px 24px;
 }
 
-.team-list{
+.team-list {
     display: grid;
     justify-content: center;
     align-content: center;
@@ -324,7 +328,7 @@ a {
     margin: 72px 0px 120px 0px;
 }
 
-.div-team{
+.div-team {
     display: flex;
     justify-content: center;
     background-color: #F4F4FD;
@@ -334,7 +338,7 @@ a {
     width: 1440px;
 }
 
-.container-team{
+.container-team {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -342,27 +346,27 @@ a {
     margin: 72px 0px 120px;
 }
 
-.team-title{
+.team-title {
     display: flex;
     justify-content: center;
 }
 
-.team-member{
+.team-member {
     background-color: #ffffff;
 }
 
-.cont-details-img{
+.cont-details-img {
     text-align: center;
 }
 
-.container-footer{
+.container-footer {
     display: flex;
     justify-content: center;
     width: 1440px;
     margin: auto;
-  }
+}
 
-.container-button{
+.container-button {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -372,7 +376,7 @@ a {
     padding: 0px;
 }
 
-.container-lib{
+.container-lib {
     margin: 12px 24px 12px 24px;
     font-size: 16px;
     border-radius: 4px;
@@ -380,12 +384,12 @@ a {
     margin: 0%;
 }
 
-.button-category:hover{
+.button-category:hover {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.container-courses{
-    display: flex;    
+.container-courses {
+    display: flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
@@ -395,12 +399,12 @@ a {
     margin: 72px 156px 48px 156px;
 }
 
-.section-courses{
+.section-courses {
     display: flex;
     justify-content: center;
 }
 
-.icons-list{
+.icons-list {
     gap: 10px;
     display: flex;
     margin-top: 8px;
@@ -413,7 +417,7 @@ a {
     height: 16px;
 }
 
-.icon{
+.icon {
     width: 40px;
     height: 40px;
     background-color: #4D5AE5;
@@ -422,11 +426,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-.logo{
-        font-size: xx-large;
+
+.logo {
+    font-size: xx-large;
 }
 
-.logos-list{
+.logos-list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -436,69 +441,70 @@ a {
 
 }
 
-.logo-simbol{
+.logo-simbol {
     width: 168px;
     height: 88px;
     border: 1px solid;
     display: flex;
     padding: 16px 32px;
-    
+
 }
 
-.sm-footer{
+.sm-footer {
     color: #ffffff;
     margin-top: 0%;
 }
 
-.sm-footer-list{
+.sm-footer-list {
     display: flex;
     gap: 16px;
     margin-top: 16px;
 
 }
 
-.sm-div-footer{
+.sm-div-footer {
     padding-top: 0%;
     width: 208px;
     height: 80px;
     margin-left: 40px;
 }
 
-.svg-footer-list{
+.svg-footer-list {
     width: 24px;
     height: 24px;
 }
 
-.icon-class{
+.icon-class {
     background-color: #F4F4FD;
     gap: 24px;
     width: 64px;
     height: 64px;
-    
+
 }
 
-.icon-symbol{
+.icon-symbol {
     width: 64px;
     height: 64px;
 }
 
-.sh-svg-list{
+.sh-svg-list {
     display: block;
 }
 
-.svg-container{
+.svg-container {
     display: none;
 }
-  
-.cards-li:hover{
+
+.cards-li:hover {
     cursor: pointer;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.is-hidden{
+.is-hidden {
     visibility: hidden;
     transform: scale(1.1);
 }
+
 /* Stiluri pentru modal mobil */
 .modal {
     display: none;
@@ -533,9 +539,10 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
 /*Aici se termina modal mobil*/
 
-.modal{
+.modal {
     background: rgba(46, 47, 66, 50%);
     position: fixed;
     top: 0;
@@ -548,7 +555,7 @@ a {
     transition: transform var(--transition);
 }
 
-.modal-content{
+.modal-content {
     margin: 0 auto;
     padding: 24px;
     background-color: white;
@@ -557,7 +564,7 @@ a {
     position: relative;
 }
 
-.close-btn{
+.close-btn {
     background-color: #E7E9FC;
     border-radius: 50%;
     color: #2E2F42;
@@ -571,7 +578,7 @@ a {
     width: 24px;
 }
 
-.overlay{
+.overlay {
     display: flex;
     justify-content: center;
     top: 0px;
@@ -593,13 +600,13 @@ a {
     overflow: hidden;
 }
 
-.overlay-text{
+.overlay-text {
     color: white;
     width: 296px;
     height: 96px;
 }
 
-.active-link:hover{
+.active-link:hover {
     color: #404bbf;
 }
 
@@ -616,16 +623,16 @@ a {
     transition: 0.2s;
 }
 
-.active-link:hover::after{
+.active-link:hover::after {
     opacity: 1;
 }
 
-.form-group{
+.form-group {
     display: flex;
     flex-direction: column;
 }
 
-.modal-text{
+.modal-text {
     display: flex;
     justify-content: center;
     height: 24px;
@@ -633,20 +640,20 @@ a {
     margin-top: 48px;
 }
 
-.label-tag{
+.label-tag {
     margin: 16px 0px 4px 0px;
     color: #8E8F99;
 }
 
-.modal-btn{
+.modal-btn {
     margin: 24px 96px 24px 96px;
 }
 
-.modal-btn2:hover{
+.modal-btn2:hover {
     cursor: pointer;
 }
 
-.modal-btn2{
+.modal-btn2 {
     display: flex;
     justify-content: center;
     width: 169px;
@@ -659,9 +666,10 @@ a {
 }
 
 ::placeholder {
-    font-size: small;}
+    font-size: small;
+}
 
-.caret-form{
+.caret-form {
     color: #2e2f42;
     width: 360px;
     padding-left: 35px;
@@ -670,35 +678,35 @@ a {
     border-style: double;
 }
 
-.caret-form1{
+.caret-form1 {
     width: 360px;
     border-radius: 4px;
 }
 
-.icon-modal{
+.icon-modal {
     width: 20px;
     height: 20px;
     position: absolute;
     margin-left: 10px;
 }
 
-.checkmark{
+.checkmark {
     margin-top: 16px;
     width: 16px;
     height: 16px;
 }
 
-.checkmark:hover{
+.checkmark:hover {
     cursor: pointer;
 }
 
-.agree-check{
+.agree-check {
     display: inline-flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.service-text{
+.service-text {
     display: inline-flex;
     width: 338px;
     height: 16px;
@@ -707,25 +715,25 @@ a {
     margin-left: 8px;
 }
 
-.text-check{
+.text-check {
     color: #4D5AE5;
     text-decoration: underline;
 }
 
-.text-check:hover{
+.text-check:hover {
     cursor: pointer;
 }
 
-.sub-footer{
+.sub-footer {
     color: white;
     width: 75px;
     height: 24px;
-    margin-bottom:16px;
+    margin-bottom: 16px;
     margin-top: 0%;
 
 }
 
-.label-input-subtag{
+.label-input-subtag {
     background-color: #2E2F42;
     border-color: white;
     width: 264px;
@@ -734,18 +742,18 @@ a {
     color: white;
 }
 
-.label-input-subtag::placeholder{
+.label-input-subtag::placeholder {
     color: white;
     width: 36px;
     height: 24px;
 }
 
-.input-modal{
+.input-modal {
     display: flex;
     align-items: center;
 }
 
-.sub-btn{
+.sub-btn {
     background-color: #4D5AE5;
     color: white;
     width: 165px;
@@ -757,33 +765,34 @@ a {
     gap: 16px;
 }
 
-.sub-btn:hover{
+.sub-btn:hover {
     cursor: pointer;
 }
 
-.sub-subscribe{
-    display:flex ;
+.sub-subscribe {
+    display: flex;
     gap: 24px;
 }
 
-.icon-sub-btn{
+.icon-sub-btn {
     fill: white;
     width: 24px;
     height: 24px;
 }
 
-.icon-sub-footer{
+.icon-sub-footer {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.customers{
+.customers {
     width: 1440px;
     margin: auto;
 }
-.nav-bar-modal{
+
+.nav-bar-modal {
     margin-bottom: 200px;
     font-size: x-large;
     font-weight: 700;
@@ -792,10 +801,12 @@ a {
     gap: 30px;
 
 }
-.nav-bar-modal:hover{
+
+.nav-bar-modal:hover {
     color: #404bbf;
 }
-.a-contact-tel{
+
+.a-contact-tel {
     font-size: xx-large;
     display: flex;
     justify-content: center;
@@ -803,56 +814,65 @@ a {
     font-weight: 700;
     margin-bottom: 40px;
 }
-.a-contact-mail{
+
+.a-contact-mail {
     font-weight: 700;
 }
-.icons-list{
+
+.icons-list {
     justify-content: space-between;
 }
 
 /*stilizare tableta*/
-@media only screen and (min-width: 768px) and (max-width: 1200px){
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
     .nav-bar,
     .nav-bar:visited {
-            --text-font-family: "Roboto" sans-serif;
-            font-weight: 500;
-        }
+        --text-font-family: "Roboto" sans-serif;
+        font-weight: 500;
+    }
 
     .contact-span {
-            display: flex;
-            flex-direction: column;
-        }
-    .describe{
-            flex-wrap: wrap;
-            display: flex;
-            width: 52%;
-            font-size: x-large;
+        display: flex;
+        flex-direction: column;
     }
-    .font-team{
+
+    .describe {
+        flex-wrap: wrap;
+        display: flex;
+        width: 52%;
+        font-size: x-large;
+    }
+
+    .font-team {
         height: 1224px;
     }
-    .team-list{
-            flex-wrap: wrap;
-            display: flex;
-            width: 52%;
-            font-size: x-large;
-            margin: auto;
-            top: 15px;
-            position: relative;
+
+    .team-list {
+        flex-wrap: wrap;
+        display: flex;
+        width: 52%;
+        font-size: x-large;
+        margin: auto;
+        top: 15px;
+        position: relative;
     }
-    .customers{
+
+    .customers {
         height: 500px;
     }
-    .logos-list{
-            flex-wrap: wrap;
-            display: flex;
-            width: 30%;
-            margin: auto;
-            top: 15px;
-            position: relative;
-            flex-direction: row;
+
+    .logos-list {
+        flex-wrap: wrap;
+        display: flex;
+        width: 30%;
+        margin: auto;
+        top: 15px;
+        position: relative;
+        flex-direction: row;
     }
-    .font-footer{
+
+    .font-footer {
         height: 450px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -860,10 +880,12 @@ a {
         justify-items: center;
         padding: 100px 300px 100px 250px;
     }
-    .modal{
+
+    .modal {
         width: 100%;
     }
-    .burger-menu-btn{
+
+    .burger-menu-btn {
         display: none;
     }
 
@@ -872,74 +894,80 @@ a {
 /*stilizare desktop*/
 @media only screen and (min-width: 1200px) {
     .nav-bar {
-                display: inline-flex;
-                justify-content: space-between;
-                width: 261px;
-                margin: 0px 332px 0px 76px;
-                padding: 0px;
-            }
-    .contact-span{
+        display: inline-flex;
+        justify-content: space-between;
+        width: 261px;
+        margin: 0px 332px 0px 76px;
+        padding: 0px;
+    }
+
+    .contact-span {
         display: flex;
     }
+
     .svg-container {
-            background-color: #F4F4FD;
-            width: 264px;
-            height: 112px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    
+        background-color: #F4F4FD;
+        width: 264px;
+        height: 112px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .section-WAWD {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 1440px;
-            margin: auto;
-        }
-    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1440px;
+        margin: auto;
+    }
+
     .describe {
-            display: flex;
-            padding: 0px;
-        }
-                
+        display: flex;
+        padding: 0px;
+    }
+
     .font-team {
-            display: block;
-            background-color: #F4F4FD;
-            margin: auto;
-            height: 780px;
-            width: 1440px;
-        }
+        display: block;
+        background-color: #F4F4FD;
+        margin: auto;
+        height: 780px;
+        width: 1440px;
+    }
 
     .team-list {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            align-content: center;
-            gap: 24px;
-            padding: 0%;
-            margin: 72px 0px 120px 0px;
-        }
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 24px;
+        padding: 0%;
+        margin: 72px 0px 120px 0px;
+    }
+
     .logo {
-            font-size: medium;
-        }
+        font-size: medium;
+    }
+
     .logos-list {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            margin: 72px 0px 120px 0px;
-            gap: 24px;
-    
-        }
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 72px 0px 120px 0px;
+        gap: 24px;
+
+    }
+
     .font-footer {
-            background-color: #2E2F42;
-            width: 1440px;
-            height: 312px;
-            padding: 100px 1020px 100px 156px;
-            display: flex;
-            gap: 80px;
-        }
+        background-color: #2E2F42;
+        width: 1440px;
+        height: 312px;
+        padding: 100px 1020px 100px 156px;
+        display: flex;
+        gap: 80px;
+    }
+
     .burger-menu-btn {
-            display: none;
-        }
+        display: none;
+    }
 }
