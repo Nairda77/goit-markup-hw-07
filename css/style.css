@@ -215,10 +215,10 @@ a {
 .font-footer{
     background-color: #2E2F42;
     width: 1440px;
-    height: 312px;
-    padding: 100px 1020px 100px 156px;
-    display: flex;
-    gap: 80px;
+    height: 500px;
+    padding: 100px 580px 100px 580px;
+    display: list-item;
+    text-align: center;
 }
 
 .studio-footer{
@@ -422,6 +422,9 @@ a {
     justify-content: center;
     align-items: center;
 }
+.logo{
+        font-size: xx-large;
+}
 
 .logos-list{
     display: flex;
@@ -496,13 +499,48 @@ a {
     visibility: hidden;
     transform: scale(1.1);
 }
+/* Stiluri pentru modal mobil */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 428px;
+    height: 796px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*Aici se termina modal mobil*/
 
 .modal{
     background: rgba(46, 47, 66, 50%);
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -745,6 +783,33 @@ a {
     width: 1440px;
     margin: auto;
 }
+.nav-bar-modal{
+    margin-bottom: 200px;
+    font-size: x-large;
+    font-weight: 700;
+    padding: 0;
+    display: grid;
+    gap: 30px;
+
+}
+.nav-bar-modal:hover{
+    color: #404bbf;
+}
+.a-contact-tel{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    color: #404bbf;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.a-contact-mail{
+    font-weight: 700;
+}
+.icons-list{
+    justify-content: space-between;
+}
+
 /*stilizare tableta*/
 @media only screen and (min-width: 768px) and (max-width: 1200px){
     .nav-bar,
@@ -788,7 +853,18 @@ a {
             flex-direction: row;
     }
     .font-footer{
-        height: 664px;
+        height: 450px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        justify-items: center;
+        padding: 100px 300px 100px 250px;
+    }
+    .modal{
+        width: 100%;
+    }
+    .burger-menu-btn{
+        display: none;
     }
 
 }
@@ -844,6 +920,9 @@ a {
             padding: 0%;
             margin: 72px 0px 120px 0px;
         }
+    .logo {
+            font-size: medium;
+        }
     .logos-list {
             display: flex;
             flex-direction: row;
@@ -851,5 +930,16 @@ a {
             margin: 72px 0px 120px 0px;
             gap: 24px;
     
+        }
+    .font-footer {
+            background-color: #2E2F42;
+            width: 1440px;
+            height: 312px;
+            padding: 100px 1020px 100px 156px;
+            display: flex;
+            gap: 80px;
+        }
+    .burger-menu-btn {
+            display: none;
         }
 }
